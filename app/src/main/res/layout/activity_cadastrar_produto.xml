@@ -1,0 +1,40 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText android:hint="Nome do produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cadastrarproduto_nome" />
+
+        <EditText android:hint="Descrição"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cadastrarproduto_descricao" />
+
+        <EditText android:hint="Preço"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cadastrarproduto_preco" />
+
+        <EditText android:hint="Tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cadastrarproduto_tipo" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:id="@+id/cadastrarproduto_salvar" />
+        </LinearLayout>
+
+</ScrollView>
